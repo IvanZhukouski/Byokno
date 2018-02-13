@@ -1,0 +1,388 @@
+body{
+	background: #fff;
+}
+
+.logo-phone{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bolder;
+	line-height: 45px;
+	font-size: 20px;
+	text-align: center;
+	color: #444;
+}
+.logo a{
+	text-decoration: none;
+	color: #444
+}
+.phone{
+	margin-right: 30px;
+}
+.social {
+    font-size: 0;
+    margin-left: 10px;
+}
+.social-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    margin-right: 15px;
+    margin-top: 20px;
+    vertical-align: middle;
+    color: #ffffff;
+    background-image: url("img/sprite.png");
+    background-repeat: no-repeat;
+    background-color: #555;
+}
+
+.social-btn:hover {
+    background-color: #777;
+}
+
+.social-btn:active {
+    border-color: #ffffff;
+    opacity: 0.3;
+}
+
+.social-btn-vk {
+    background-position: 7px -248px;
+}
+
+.social-btn-fb {
+    background-position: 9px -305px;
+}
+
+.social-btn-in {
+    background-position: 3px -368px;
+}
+.logo{
+	margin-left: 30px;
+}
+
+header nav{
+	margin-bottom: 50px;
+	
+
+}
+header nav ul, footer .nav-footer{
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+}
+header nav a{
+	text-decoration: none;
+	margin: 60px;
+	font-family: 'Bree Serif', serif;
+	font-weight: bolder ;
+	font-size: 20px;
+	text-align: center;
+	color: #444444;
+}
+header nav a:hover{
+	color: #606060;
+	text-decoration: underline;
+}
+header nav a:active{
+
+	color: #333;
+
+
+}
+.promo{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid grey;
+	padding: 0 0 0 0px;
+	background-color: 
+}
+.promo article{
+	width: 35%;
+	min-width: 180px;
+	text-align: center;
+}
+.btn {
+	margin: 30px auto auto;
+	background: #e5372d;
+	color: #fff;
+	width: 180px;
+	text-align: center;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 2px;
+	font-size: 19px;
+	border: 0px solid #e5372d;
+	text-decoration: none;
+	display: block;
+	box-shadow: 0px 0px 2px 0px #111;
+
+}
+.btn:hover{
+
+	background: #d5271d;
+}
+.btn:active{
+	box-shadow: inset 0px 0px 3px 1px #111;
+}
+
+
+.window{
+	width: 50%;
+}
+.note{
+	margin-top: 50px;
+	margin-left: 10%;
+	color: #233;
+	font-weight: bolder;
+	padding-left: 10px;
+	border-left: 3px solid lightgrey;	
+}
+
+
+.photo{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+ 	align-items: center;
+ }
+
+
+.servises{
+	max-width: 95%;
+	margin: 90px auto auto;
+ 	text-align: center;
+	
+ }
+ .servises img{
+ 	margin-bottom: 15px;
+ }
+ .servises p{
+ 	margin-right: 5px;
+ 	font-family: arial;
+ 	width: 200px;
+ 	height: 50px;
+ 	text-align: center;
+ 	vertical-align:middle;
+ 	background-color: lightblue;
+ 	line-height: 50px;
+ }
+ 
+ .servises-list{
+
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ }
+ .promo-info{
+ 	display: flex;
+ 	align-items: center;
+ 	background-color: #E6EfE7;
+ 	padding: 20px;
+ 	margin: 50px 0 50px 0;
+ }
+ .promo-info img{
+ }
+ .promo-info article{
+ 	font-family: 'Bree Serif', serif;
+ 	font-size: 17px;
+ 	margin-left: 70px;
+ 	width: 60%;
+
+ }
+ #promo{
+ 	font-family: 'Bree Serif', serif;
+ 	font-size: 17px;
+ 	font-weight: bolder;
+ 	color: #333;
+
+ }
+ footer{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	width: 100%;
+ 	background-color: grey;
+ 	margin-top: 40px;
+ }
+ .nav-footer{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ .nav-footer a{
+ 	font-family: 'arial';
+ 	display: block;
+ 	margin: 0 0 0 30px;
+ 	font-size: 19px;
+ 	font-weight: ;
+ 	color: #eee;
+ }
+ .nav-footer a:hover{
+ 	color: #ccc;
+ }
+.contacts{
+	position: relative;
+}
+.contacts .tel{
+	display:block;
+	color: #333; 
+	margin-right: 20px;
+	font-size: 17px;
+	text-align: center;
+}
+.table-wrapper{
+	background-image: url(img/girl.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	background-attachment: fixed;
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+}
+table, td, th{
+	border-collapse: collapse;
+	border: 3px solid #52737d;
+}
+table{
+	color: #32335d;
+	font-family: "arial";
+	font-weight: bolder;
+	font-size: 18px;
+	background-color: rgba(255, 216, 153, 0.7);
+}
+td, th{
+	height: 10px;
+	padding: 5px;
+}
+td:nth-child(even){
+	text-align: center;
+}
+.rolls p{
+	margin-top: 50px;
+	padding-left: 20px;
+	border-left: 2px solid #333;
+	margin-left: 2%;
+	font-family: 'Bree Serif', serif;
+	font-size: 18px;
+	color: #333;
+}
+.info{
+	margin-top: 50px;
+	padding-left: 20px;
+	border-left: 2px solid #333;
+	margin-left: 2%;
+	font-family: 'Bree Serif', serif;
+	font-size: 18px;
+	color: #333;
+}
+.info-photo{
+	min-height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.info-photo img{
+	height: 250px;
+	width: auto;
+	margin-bottom: 10px;
+	transition: 0.3s;
+}
+.info-photo img:hover{
+	height: 270px;
+	width: auto;
+}
+@media all and (max-width: 1250px) {
+	.info-photo{
+		min-height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+	.info-photo img{
+		width: 70%;
+		height: auto;
+		margin-bottom: 10px;
+		transition: 0.3s;
+}
+	.info-photo img:hover{
+		width: 70%;
+		height: auto;
+	}
+} 
+@media all and (max-width: 780px) { 
+	header nav a{
+	margin: 25px;
+	}
+
+	.nav-footer{
+		flex-direction: column;
+	}
+	.nav-footer a{
+		margin-bottom: 10px;
+	}
+}
+@media all and (max-width: 580px) { 
+	.logo,.phone{
+		margin:0;
+	}
+	.window{
+		width: 100%;
+		margin-top: 30px;
+	}
+	header nav ul{
+		justify-content: space-between;
+	}
+	header nav a, .nav-footer a{
+		margin: 0px;
+		text-decoration: underline;
+	}		
+	.promo article{
+
+		min-width: 250px;
+	}
+	.servises .btn{
+		margin: auto;
+	}
+	.promo-info,
+	.photo,
+	.promo{
+		flex-direction: column;
+	}
+	.promo-info article{
+		font-size: 15px;
+		margin:10px;
+		width: 80%
+	}
+}
+@media all and (max-width: 450px) {
+	header nav ul{
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.servises p{
+ 	margin-right: 0
+	}
+	.logo-phone, footer{
+		flex-direction: column;
+	}
+	.note {
+		margin-left: 10px;
+	}
+	footer{
+		padding-bottom: 20px;
+	}
+	.contacts .tel{
+		margin: 0;
+	}
+}
