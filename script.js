@@ -1,8 +1,3 @@
-// $(document).ready(function(){
-// 	$("nav").click(function(){
-// 		$(this).hide();
-// 	});
-// });
 (function($){
   $(function() {
     $('.menu__icon').on('click', function() {
